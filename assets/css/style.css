@@ -24,32 +24,25 @@ h1{
     text-decoration-style: solid;
     color: rgb(245, 245, 125);
     background-color: rgba(131, 94, 94, 0.87);
-    position: absolute;
     padding: 20px;
     height: 600px;
-    width: 30%;
     text-align: left;
     font-size: 18px;
     margin: auto;
 }
 
-#matchbox{
+.container{
     text-decoration-style: solid;
     color: rgb(245, 245, 125);
-    position: relative;
     background-color: rgba(131, 94, 94, 0.87);
-    float: left;
     padding: 20px;
     margin-bottom: 20px;
-    
 }
 
 #count{
     text-decoration-style: solid;
     color: rgb(245, 245, 125);
     background-color: rgba(131, 94, 94, 0.87);
-    position: relative;
-    float: left;
     padding: 20px;
     margin-bottom: 20px;
 }
@@ -58,5 +51,4 @@ h1{
     clear: both;
     width: 33%;
     margin-bottom: 20px;
-    float: right;
 }
