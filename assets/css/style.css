@@ -5,7 +5,7 @@
 body{
     background-image:url("../images/top.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: stretch;
     background-color: #cccc;
 }
 
@@ -14,21 +14,12 @@ h1{
     color: rgb(245, 245, 125);
     background-color: rgba(131, 94, 94, 0.87);
     font-size: 36px;
-    line-height: 45px;
     margin-bottom: 20px;
     text-align: center;
     font-family: 'East Sea Dokdo', cursive;
 }
-
-#rules{
-    text-decoration-style: solid;
-    color: rgb(245, 245, 125);
-    background-color: rgba(131, 94, 94, 0.87);
-    padding: 20px;
-    height: 600px;
+p{
     text-align: left;
-    font-size: 18px;
-    margin: auto;
 }
 
 .container{
@@ -39,16 +30,21 @@ h1{
     margin-bottom: 20px;
 }
 
-#count{
-    text-decoration-style: solid;
-    color: rgb(245, 245, 125);
-    background-color: rgba(131, 94, 94, 0.87);
-    padding: 20px;
-    margin-bottom: 20px;
-}
 
 .button {
-    clear: both;
-    width: 33%;
+    height:40px;
     margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+#count{
+    width:50%;
+}
+
+#matchbox{
+    width:50%;
+}
+
+#rules{
+    width:75%;
 }
